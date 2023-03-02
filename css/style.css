@@ -1674,7 +1674,6 @@ body {
      }
      .history {
       margin-top: -20px;
-      height: 100vh;
      }
      .history_info {
         width: 100%;
@@ -1735,7 +1734,7 @@ body {
       font-size: 20px;
     }
 
-  }
+  
     /*
     .work_img {
         width: 300px;
