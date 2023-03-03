@@ -47,11 +47,10 @@ body {
     font-size: 40px;
     text-decoration: none;
     margin-right: 25px;
-    transition: 1s all ease-in-out;
+    transition: .3s all ease-in;
   }
   .nav_link:hover {
-    color: #000;
-    text-decoration: underline;
+    color: #fff;
   }
   /*main*/
   .main {
@@ -1741,23 +1740,6 @@ body {
     width: 30px;
     height: 30px;
   }
-    /*.results {
-        margin-top: 0;
-    }
-    .results_number {
-      margin-left: 25px;
-      grid-column-gap: 50px;
-      grid-row-gap: 10px;
-      margin-bottom: -20px;
-    }
-    .results_number .result_item {
-      width: 120px;
-      height: 120px;
-      font-size: 35px;
-    }
-    .result_item span {
-      font-size: 20px;
-    }*/
     .works {
       margin-top: 82%;
     }
@@ -1844,66 +1826,4 @@ body {
   
 
   
-    /*
-    
-   
-    .start {
-        margin-top: 10px;
-    }
-    .start_text {
-        width: 300px;
-        height: 430px;
-    }
-    .start_text .start_title {
-        font-size: 30px;
-    }
-    .start_text .start_desc {
-        font-size: 20px;
-    }
-    .start_text .start_btn {
-        padding: 15px 35px;
-    }
-    .start .round {
-        width: 70px;
-        height: 70px;
-        top: 50%;
-    }
-    .start_image .start_img {
-        width: 270px;
-        height: 270px;
-        border: 25px solid #6D765B;
-    }
-}
-/*@media (max-width: 450px) {
-    .container {
-        width: 100%;
-    }
-    .main_title .title_img {
-        width: 150px;
-        height: 150px;
-        margin-top: 300px;
-        margin-left: -90px;
-    }
-    .main .round_small {
-        width: 50px;
-        height: 50px;
-        top: 93px;
-        right: 65px;
-        border: 20px solid #687F71;
-        animation: round_small_450 1s ease-in-out;
-    }
-    .main .round_big {
-        top: 580px;
-        right: 12px;
-        width: 90px;
-        height: 90px;
-        border: 30px solid #88A593;
-        animation: round_big_450 ease-in-out 1.5s;
-    }
-    .start .round {
-        top: 50%;
-    }
-    .work_text {
-        height: 350px;
-    }
-}
+  
