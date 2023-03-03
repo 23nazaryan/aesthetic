@@ -1672,6 +1672,7 @@ body {
      }
      .history {
       margin-top: -20px;
+      overflow: hidden;
      }
      .history_images {
       margin: 23px 0px 190px;
@@ -1694,6 +1695,7 @@ body {
         font-size: 15px;
         margin-left: 0;
         height: 25px;
+        overflow: hidden;
       }
       .history_images img {
         width: 150px;
@@ -1794,10 +1796,12 @@ body {
     }
     .start {
       margin-top: 10px;
+      overflow: hidden;
   }
   .start_text {
       width: 300px;
       height: 430px;
+      overflow: hidden;
   }
   .start_text .start_title {
       font-size: 30px;
