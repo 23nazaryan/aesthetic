@@ -1818,6 +1818,7 @@ body {
       width: 270px;
       height: 270px;
       border: 25px solid #6D765B;
+      -webkit-margin-before: 10px;
   }
   .copyright {
     font-size: 18px;
