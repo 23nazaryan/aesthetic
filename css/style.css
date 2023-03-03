@@ -1719,7 +1719,7 @@ body {
       z-index: -1;
     }
     .results {
-        margin-top: 0px;
+        margin-top: 0;
     }
     .results_number {
       margin-left: 25px;
