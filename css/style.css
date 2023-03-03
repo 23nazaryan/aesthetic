@@ -1798,6 +1798,7 @@ body {
   .start_text {
       width: 300px;
       height: 430px;
+      -webkit-height: 430px;
   }
   .start_text .start_title {
       font-size: 30px;
