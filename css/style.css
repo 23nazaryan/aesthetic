@@ -1675,6 +1675,9 @@ body {
      .history {
       margin-top: -20px;
      }
+     .history_images {
+      margin: 23px 0px 0;
+     }
      .history_info {
         width: 100%;
      }
@@ -1724,7 +1727,6 @@ body {
       grid-row-gap: 10px;
       margin-bottom: -20px;
     }
-    }
     .results_number .result_item {
       width: 120px;
       height: 120px;
@@ -1733,58 +1735,89 @@ body {
     .result_item span {
       font-size: 20px;
     }
+    .work_img .work_image {
+      width: 300px;
+      height: 350px;
+      top: 50px;
+      left: 7px;
+    }
+    .work_img {
+      width: 300px;
+      height: 350px;
+    }
+    .work_text {
+      margin-top: 57px;
+      width: 300px;
+      height: 350px;
+    }
+    .work_text .work_title {
+      font-size: 35px;
+    }
+    .work_text .work_subtitle {
+    font-size: 28px;
+    }
+    .work_btn a {
+    font-size: 25px;
+    }
+    .work_text .work_btn {
+      padding: 10px 50px;
+    }
+      .new_images .new_img {
+        width: 300px;
+        height: 300px;
+      }
+      .sale .sale_text {
+        font-size: 20px;
+    }
+    .nature {
+      margin-top: -20px;
+    }
+    .nature .nature_title {
+      font-size: 35px;
+      font-weight: 600;
+    }
+    .nature .nature_text {
+      font-size: 20px;
+      padding: 0 17px
+    }
+    .nature_images .nature_img {
+      width: 300px;
+      height: 370px;
+    }
+    .start {
+      margin-top: 10px;
+  }
+  .start_text {
+      width: 300px;
+      height: 430px;
+  }
+  .start_text .start_title {
+      font-size: 30px;
+  }
+  .start_text .start_desc {
+      font-size: 20px;
+  }
+  .start_text .start_btn {
+      padding: 10px 30px;
+  }
+  .start .round {
+      width: 70px;
+      height: 70px;
+      top: 0;
+      border: 17px solid #A7B59B;
+  }
+  .start_image .start_img {
+      width: 270px;
+      height: 270px;
+      border: 25px solid #6D765B;
+  }
+}
+  
 
   
     /*
-    .work_img {
-        width: 300px;
-        height: 400px;
-        margin-left: -42px;
-    }
-    .work_img .work_image {
-        top: 30px;
-        left: 40px;
-        width: 300px;
-        height: 400px;
-    }
-    .work_text {
-        margin-top: 35px;
-        height: 300px;
-    }
-    .work_text .work_title {
-        font-size: 35px;
-    }
-    .work_text .work_subtitle {
-        font-size: 30px;
-    }
-    .work_btn a {
-        font-size: 20px;
-    }
-    .work_text .work_btn {
-        padding: 10px 40px;
-    }
-    .new {
-        height: 960px;
-    }
-    .new_text .new_title {
-        font-size: 30px;
-    }
-    .new_text .new_desc {
-        font-size: 18px;
-    }
-    .nature {
-        line-height: .8;
-    }
-    .nature .nature_title {
-        font-size: 30px;
-    }
-    .nature .nature_text {
-        font-size: 20px;
-    }
-    .nature_images .nature_img {
-        width: 300px;
-        height: 370px;
-    }
+    
+   
     .start {
         margin-top: 10px;
     }
