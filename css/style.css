@@ -1837,6 +1837,9 @@ body {
       height: 270px;
       border: 25px solid #6D765B;
   }
+  .copyright {
+    font-size: 18px;
+  }
 }
   
 
