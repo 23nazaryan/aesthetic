@@ -1731,10 +1731,10 @@ body {
     .results_number .result_item {
       width: 100px;
       height: 100px;
-      font-size: 35px;
+      font-size: 25px;
     }
     .result_item span {
-      font-size: 23px;
+      font-size: 18px;
       margin-top: -10px;
     }
     .result_item svg {
