@@ -172,25 +172,27 @@ body {
     padding-bottom: 10px;
   }
   .title_button {
-    padding: 20px 80px;
+    
+  }
+  .title_btn:hover {
+    background: #CBDBD1;
+  }
+  .title_btn:hover {
+    color: #fff;
+  }
+  .title_btn {
+    font-size: 38px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #88A593;
+    padding: 5px 28px;
     display: block;
     border: 10px solid #88A593;
     margin-top: 15px;
     border-radius: 15px;
     cursor: pointer;
     transition: all;
-  }
-  .title_button:hover {
-    background: #CBDBD1;
-  }
-  .title_button:hover .title_btn {
-    color: #fff;
-  }
-  .title_button .title_btn {
-    font-size: 38px;
-    text-decoration: none;
-    font-weight: 600;
-    color: #88A593;
+    width: 150px;
   }
   /*history*/
   .history_title {
@@ -359,19 +361,18 @@ body {
     font-size: 45px;
     font-weight: 200;
     margin-top: -20px;
+    margin-bottom: 40px;
   }
   .work_text .work_btn {
-    padding: 20px 70px;
-    border-radius: 5px;
+    padding: 16px 60px;
+    border-radius: 14px;
     border: none;
-    margin-top: 40px;
     cursor: pointer;
-  }
-  .work_btn a {
     font-size: 40px;
     font-weight: 600;
     color: #546F68;
     text-decoration: none;
+    border: 5px solid #546F68;
   }
   .work_btn:hover a {
     color: #fff;
@@ -476,12 +477,10 @@ body {
     color: #fff;
     font-size: 30px;
     border: none;
+    cursor: pointer;
+    text-decoration: none;
   }
-  .new_btn:hover {
-    background-color: #8E927B;
-    color: #fff;
-  }
-  
+
   .new_image:hover .new_image_content {
     opacity: 1;
     transform: translateY(-50px);
@@ -576,24 +575,22 @@ body {
   }
   .start_text .start_desc {
     font-size: 30px;
-    padding: 0 5px;
+    padding: 16px 5px;
   }
   .start_text .start_btn {
-    padding: 35px 65px;
+    padding: 16px 48px;
+    border-radius: 14px;
     border: none;
-    border-radius: 30px;
-  }
-  .start_btn a{
-    color: #A7B59B;
-    font-size: 35px;
-    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
     font-weight: 600;
+    color: #6D765B;
+    text-decoration: none;
+    border: 5px solid #6D765B;
   }
   .start_btn:hover {
     background-color: #6D765B;
     cursor: pointer;
-  }
-  .start_btn:hover a {
     color: #fff;
   }
   .start_text .round {
@@ -950,10 +947,7 @@ body {
         font-size: 30px;
     }
     .work_text .work_btn {
-        padding: 5px 65px;
-    }
-    .work_btn a {
-        font-size: 35px;
+        padding: 5px 50px;
     }
     .work_text .round {
         width: 150px;
@@ -1027,11 +1021,8 @@ body {
         top: 10px;
         left: 60px;
     }
-    .start_btn a {
-        font-size: 30px;
-    }
     .start_text .start_btn {
-        padding: 30px 60px;
+      padding: 17px 42px;
     }
     .footer_content {
         font-size: 30px;
@@ -1119,11 +1110,9 @@ body {
       width: 320px;
       height: 320px;
     }
-    .title_button {
-      padding: 10px 50px;
-    }
-    .title_button .title_btn {
+    .title_btn {
       font-size: 30px;
+      padding: 6px 23px;
     }
     .history {
         margin-top: 0px;
@@ -1258,11 +1247,9 @@ body {
         margin-top: 0;
         font-size: 30px;
     }
-    .start_btn {
-         padding: 15px 45px
-    }
-    .start_btn a {
-        font-size: 20px;
+    .start_text .start_btn {
+         padding: 10px 31px;
+         font-size: 30px;
     }
     .footer_content {
       padding: 0;
@@ -1411,6 +1398,9 @@ body {
     .title_desc {
       font-size: 35px;
     }
+    .title_btn {
+      margin: 0 auto;
+    }
     .history_images img {
       width: 340px;
       height: 440px;
@@ -1460,6 +1450,9 @@ body {
 .work_text {
   margin-left: 0;
 }
+.work_text .work_btn {
+  padding: 10px 35px;
+}
 .start_content {
   flex-wrap: wrap;
 }
@@ -1470,7 +1463,7 @@ body {
   margin-top: 35%;
   margin-right: 0;
 }
-.start_btn a {
+.start_text .start_btn {
   font-size: 25px;
 }
 .start_image .start_img {
@@ -1662,14 +1655,12 @@ body {
     .title_desc {
       font-size: 25px
     }
-    .title_button .title_btn {
+    .title_btn {
       font-size: 20px;
-    }
-     .title_button {
-        padding: 5px 30px;
-        border: 4px solid #88A593;
-        margin: 5px auto;
-     }
+      padding: 2px 10px;
+      width: 80px;
+      border: 4px solid #88A593;
+    }  
      .history {
       margin-top: -20px;
      }
@@ -1690,11 +1681,11 @@ body {
         margin-top: -20px;
       }
       .countrie {
-        width: 315px;
-        font-size: 15px;
-        margin-left: 0;
-        height: 25px;
-        overflow: hidden;
+          width: 320px;
+          font-size: 14px;
+          margin-left: -7px;
+          height: 25px;
+          overflow: hidden;
       }
       .history_images img {
         width: 150px;
@@ -1765,12 +1756,12 @@ body {
     .work_text .work_subtitle {
     font-size: 28px;
     }
-    .work_btn a {
-    font-size: 25px;
-    }
+    
     .work_text .work_btn {
-      padding: 10px 50px;
+        font-size: 30px;
+        padding: 5px 34px;
     }
+    
       .new_images .new_img {
         width: 300px;
         height: 300px;
